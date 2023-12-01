@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2b385b;
+}
+
+#container {
+  width: 100vw;
+  height: 50vh;
+  position: relative;
+  top: calc(50% - 25vh);
+  text-align: center;
+}
+
+.card {
+  width: 150px;
+  height: 200px;
+  padding: 30px;
+  margin: 20px;
+  display: inline-block;
+  background-color: #E16E0E;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.68);
+}
+
+.titulo-card {
+  color: #2b385b;
+}
+
+.descricao-card {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.botao-editar {
+  background-color: green;
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.botao-apagar {
+  background-color: red;
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+body div h2, p {
+  padding-top: 20px;
+}
+
+body div h2, p, button {
+  margin-bottom: 20px;
+}
